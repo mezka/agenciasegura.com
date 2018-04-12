@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#2E2E2E;
+	margin:0;
+
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:185px;
+	
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#marca {
+	float:left;
+    
+	margin-top:10px;
+    margin-bottom:10px;
+	background-image:url(imagenes/logo.png);
+	background-size:275px 159px;
+    width:275px;
+    height:159px;
+	}
+.department {
+    
+    float:right;
+    padding-top:34px;
+    
+    color:#A4A4A4;text-align:right;font-size:15px
+}
+.department span {
+    color:#F2F2F2;
+}
+.tel { 
+	display:inline;
+	float:right; 
+    color:#72716f;
+	text-align:right;
+	font-size:15px
+
+}
+.tel span {
+    color:#F2F2F2;
+}
+
+#botonera_principal {
+	
+	float:right;
+    margin-top:57px;
+	width:681px;
+	height:55px;
+	
+	
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	
+	}
+
+#botonera_principal ul li a {
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+	padding:17px 32px 17px 33px;
+	float:left;
+	
+	display:block;
+	
+	background-color:#0B3861;
+	margin:2px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#FFF;
+	color:#0B3861;
+	}
+
+
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+#contenido {
+	height:auto;
+	width:920px;
+	padding:20px;
+	background-color:#FFF;
+	
+	}
+#slider {
+
+float:right;
+width:auto;
+height:auto;
+padding-left:10px;
+
+}	
+#mensaje {
+float:left;
+}	
+
+#mapa {
+margin-top:50px;
+margin-left:400px;
+width:auto;
+height:auto;
+
+}
+
+
+
+.borrar {
+	clear:both;
+}
+h2 {
+	color:#666;
+}
+
+footer {
+
+	color:#666;
+	background-color:#0B3861;
+	padding:20px;
+	
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+.boton_desactivado {
+	background-color:#CCC;
+	color:#666;
+}
+/*..............formulario ....................*/
+#formulario ul {
+ list-style-type:none;
+width:190px;
+ }
+textarea {
+	width:190px;
+	
+}
+
+/*..........galeria productos..................... */
+#galeria{ /* <ul> */
+	list-style-type: none;
+	margin: 0 auto;
+	padding-bottom:0;
+	width:800px;
+	}
+#galeria li{
+		float: left;
+		padding: 5px;
+		}
+#galeria .ajustarimg{
+		width:200px;
+		height: 150px;
+	}
+/*..............................................*/
+
+/* inicio responsive max 600 */
+@media handheld, screen and (max-width: 599px) {
+	#contenedor {
+				width:auto;
+	}
+	#contenido {
+				width:auto;
+				padding:10px;
+	}
+	header{
+		  height:270px;
+		  width:auto;
+	}
+	.department{
+				display:none;
+	}
+	#marca{
+			margin-left:40%;
+			float:none;
+			margin-top:0;
+			margin-bottom:0;
+			height:55px;
+			width:100px;
+			background-size:100%;
+	}
+	#mapa { 
+			float:none;
+			margin-top:0;
+			margin-left:0;
+	}
+	.tel{
+		display:initial;
+	}
+	
+	
+	#botonera_principal {
+	
+	float:left;
+    margin-top:0;
+	
+	}
+	
+	#botonera_principal ul li a{
+		height:auto;
+		width:85%;
+		color:#FFF;
+		font-weight:bold;
+		text-decoration:none;
+		padding:10px 0;
+		float:left;
+		
+		display:block;
+		
+		background-color:#0B3861;
+		margin:2px;
+		border-top-left-radius:2px;
+		border-top-right-radius:2px;
+		}
+		
+	#botonera_principal ul li a:hover {
+		background-color:#FFF;
+		color:#0B3861;
+		display:block;
+		}
+	#galeria{ /* <ul> */
+		list-style-type: none;
+		margin: 0 auto;
+		padding-bottom:350px;
+		width:100%;
+		}
+	#galeria li{
+			float: left;
+			padding: 5px;
+			}
+	#galeria .ajustarimg{
+			width:200px;
+			height: 150px;
+		}
+	#videoagencia {
+	max-width:100%;
+	}	
+	}
+
+	
