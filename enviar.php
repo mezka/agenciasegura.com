@@ -19,7 +19,7 @@ $asunto="Mensaje enviado desde www.agenciasegura.com";
 $mensaje_email="Nombre: ".$nombre."\r\n";
 $mensaje_email.="Apellido: ".$apellido."\r\n";
 $mensaje_email.="Correo: ".$email."\r\n";
-$mensaje_email.="Telefono: ".$correo."\r\n";
+$mensaje_email.="Telefono: ".$telefono."\r\n";
 $mensaje_email.="Motivo: ".$motivo."\r\n";
 $mensaje_email.="Mensaje: ".$mensaje."\r\n";
 
