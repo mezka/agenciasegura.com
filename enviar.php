@@ -29,7 +29,7 @@ mail($destino, $asunto, $mensaje_correo, $remitente);
 
 include("base_datos.php");
 
-mysql_query("INSERT INTO consultas VALUES (0, '$nombre', '$apellido', '$email', '$telefono', '$motivo', '$mensaje')", $conn);
+$conn->query("INSERT INTO consultas VALUES (0, '$nombre', '$apellido', '$email', '$telefono', '$motivo', '$mensaje')");
 
 
 header("Location:precios.php?e=ok");
