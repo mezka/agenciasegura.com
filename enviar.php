@@ -23,9 +23,9 @@ $mensaje_email.="Telefono: ".$telefono."\r\n";
 $mensaje_email.="Motivo: ".$motivo."\r\n";
 $mensaje_email.="Mensaje: ".$mensaje."\r\n";
 
-$remitente="From:$nombre $apellido <$correo>";
+$remitente="From:$nombre $apellido <$email>";
 
-mail($destino, $asunto, $mensaje_correo, $remitente);
+mail($destino, $asunto, $mensaje_email, $remitente);
 
 include("base_datos.php");
 
